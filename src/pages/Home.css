@@ -1,0 +1,31 @@
+.homeContainer {
+  width: 100vw;
+  background-image: url(../../public/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  padding: 2em;
+}
+.buttonsContainer {
+  display: flex;
+  gap: 1em;
+  margin: 1em;
+}
+
+.buttonsContainer button {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.homeContainer p,
+.homeContainer span {
+  font-size: 1.4em;
+}

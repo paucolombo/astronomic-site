@@ -1,0 +1,30 @@
+.apodContainer {
+  padding: 0.5em;
+}
+.apodImg img {
+  width: 50vw;
+  min-width: 380px;
+  border-radius: 8px;
+}
+
+.apodContainer > .infoAndDateContainer {
+  background-color: var(--color-bg-apod-container);
+}
+.toggleMars:hover {
+  color: darkred;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 761px) {
+  body {
+    height: auto;
+  }
+  .infoAndDateContainer,
+  .apodImg img {
+    width: 95vw;
+    margin: 0.2em;
+  }
+  h1 {
+    font-size: 1.5em !important;
+  }
+}

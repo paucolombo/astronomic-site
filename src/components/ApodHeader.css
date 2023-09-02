@@ -1,0 +1,25 @@
+.apodHeader,
+.marsHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1em;
+}
+.logoMars img,
+.logoApod img {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 100px;
+}
+
+@media screen and (max-width: 761px) {
+  .logoApod img,
+  .logoMars img {
+    position: absolute;
+    left: 2px;
+    top: 5px;
+    width: 75px;
+  }
+}

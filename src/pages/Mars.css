@@ -1,0 +1,33 @@
+.apodContainer,
+.marsContainer {
+  padding-left: 1.2em;
+}
+.marsImg img {
+  width: 50vw;
+  min-width: 380px;
+  max-height: 700px;
+  border-radius: 8px;
+}
+.infoAndDateContainer {
+  width: 37vw;
+  background-color: #68212694;
+}
+
+.toggleApod:hover {
+  color: darkblue;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 760px) {
+  body {
+    height: auto;
+  }
+  .infoAndDateContainer,
+  .marsImg img {
+    width: 92vw;
+    margin: 0.3em;
+  }
+  h1 {
+    font-size: 1.5em !important;
+  }
+}
