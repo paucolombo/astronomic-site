@@ -22,4 +22,11 @@
     top: 5px;
     width: 75px;
   }
+  .logoMars img {
+    width: 60px;
+  }
+  .apodHeader h1,
+  .marsHeader h1 {
+    font-size: 1.5em;
+  }
 }

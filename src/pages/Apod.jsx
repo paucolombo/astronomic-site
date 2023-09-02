@@ -39,7 +39,7 @@ function Apod() {
       <ApodHeader />
       <div className='apodContainer'>
         {apod.length === 0 || apod.code === 404 && <h2>There are no pictures for today yet. Please try again later</h2>}
-        {apod.length != 0 && <div className='apodImg'>
+        {apod.code != 404 && <div className='apodImg'>
           <img src={apod.url} alt={apod.title} />
         </div>
         }

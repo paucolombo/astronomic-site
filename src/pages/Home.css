@@ -29,3 +29,12 @@
 .homeContainer span {
   font-size: 1.4em;
 }
+@media screen and (max-width: 761px) {
+  .buttonsContainer button {
+    width: 140px;
+    font-size: 1.1em;
+  }
+  .homeContainer h1 {
+    font-size: 2em;
+  }
+}

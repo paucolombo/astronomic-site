@@ -38,7 +38,7 @@ function Mars() {
     <>
       <MarsHeader />
       <div className='marsContainer'>
-        {mars.length === 0 && <h2>There are no pictures for today yet. Please try again later</h2>}
+        {mars.length === 0 && <h2>There are no pictures for the selected day. Please select another day</h2>}
         {mars.length != 0 && <div className='marsImg'>
           <img src={mars[0].img_src} alt={mars[0].rover.name} />
         </div>
