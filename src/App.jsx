@@ -13,13 +13,13 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/apod' element=
           {
-            <Suspense fallback={<div className='loading'>Loading...</div>}>
+            <Suspense fallback={<div className='loading'><img src='spinner.svg' alt='loading' /></div>}>
               <Apod />
             </Suspense>
           }
         />
         <Route path='/mars' element={
-          <Suspense fallback={<div className='loading'>Loading...</div>}>
+          <Suspense fallback={<div className='loading'><img src='spinner.svg' alt='loading' /></div>}>
             <Mars />
           </Suspense>} />
       </Routes>
